@@ -22,3 +22,5 @@
 
 # UI Theme
 - Use Dark theme
+
+# Create a gitignore file to ignore on Github. Use industry standards
