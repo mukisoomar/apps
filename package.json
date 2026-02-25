@@ -10,7 +10,8 @@
     "dev:server": "node server.js",
     "dev:client": "react-scripts start",
     "generate-data": "node scripts/generate-data.js",
-    "setup": "npm install && node scripts/generate-data.js && npm run build"
+    "setup": "npm install && node scripts/generate-data.js && npm run build",
+    "deploy": "bash deploy.sh"
   },
   "dependencies": {
     "cors": "^2.8.5",

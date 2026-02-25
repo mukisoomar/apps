@@ -1,0 +1,53 @@
+{
+  "version": "v1",
+  "host": "https://e2-demo-field-eng.cloud.databricks.com",
+  "remote_path": "/Workspace/Users/muki.soomar@databricks.com/customer-manager",
+  "last_modified_times": {
+    ".gitignore": "2026-02-24T16:45:23.144145232-05:00",
+    "app.yaml": "2026-02-24T16:13:36.110818161-05:00",
+    "data/customers.csv": "2026-02-24T16:24:59.745745154-05:00",
+    "deploy.sh": "2026-02-24T16:58:04.056097278-05:00",
+    "package-lock.json": "2026-02-24T16:34:44.901256628-05:00",
+    "package.json": "2026-02-24T16:57:48.522465299-05:00",
+    "prd.md": "2026-02-24T16:44:50.033857864-05:00",
+    "public/index.html": "2026-02-24T16:32:27.428248435-05:00",
+    "scripts/generate-data.js": "2026-02-24T16:13:36.110770119-05:00",
+    "server.js": "2026-02-24T16:33:15.83846063-05:00",
+    "src/App.js": "2026-02-24T16:32:39.762115832-05:00",
+    "src/components/CustomerForm.js": "2026-02-24T16:33:31.626069878-05:00",
+    "src/components/CustomerTable.js": "2026-02-24T16:33:31.626076753-05:00",
+    "src/index.js": "2026-02-24T16:32:27.428241227-05:00"
+  },
+  "local_to_remote_names": {
+    ".gitignore": ".gitignore",
+    "app.yaml": "app.yaml",
+    "data/customers.csv": "data/customers.csv",
+    "deploy.sh": "deploy.sh",
+    "package-lock.json": "package-lock.json",
+    "package.json": "package.json",
+    "prd.md": "prd.md",
+    "public/index.html": "public/index.html",
+    "scripts/generate-data.js": "scripts/generate-data.js",
+    "server.js": "server.js",
+    "src/App.js": "src/App.js",
+    "src/components/CustomerForm.js": "src/components/CustomerForm.js",
+    "src/components/CustomerTable.js": "src/components/CustomerTable.js",
+    "src/index.js": "src/index.js"
+  },
+  "remote_to_local_names": {
+    ".gitignore": ".gitignore",
+    "app.yaml": "app.yaml",
+    "data/customers.csv": "data/customers.csv",
+    "deploy.sh": "deploy.sh",
+    "package-lock.json": "package-lock.json",
+    "package.json": "package.json",
+    "prd.md": "prd.md",
+    "public/index.html": "public/index.html",
+    "scripts/generate-data.js": "scripts/generate-data.js",
+    "server.js": "server.js",
+    "src/App.js": "src/App.js",
+    "src/components/CustomerForm.js": "src/components/CustomerForm.js",
+    "src/components/CustomerTable.js": "src/components/CustomerTable.js",
+    "src/index.js": "src/index.js"
+  }
+}
