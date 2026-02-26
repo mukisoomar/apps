@@ -15,6 +15,48 @@ The project entrypoint is defined in `app.yaml`:
 - Permissions to create and deploy Databricks Apps
 - Node.js and npm installed (if you build locally)
 
+## Install Databricks CLI (macOS and Windows)
+
+### macOS
+
+Install with Homebrew:
+
+```bash
+brew tap databricks/tap
+brew install databricks
+```
+
+Verify:
+
+```bash
+databricks --version
+databricks auth profiles
+```
+
+### Windows laptop
+
+#### Option A (recommended): install from WinGet
+
+```powershell
+winget search databricks
+winget install <databricks-cli-package-id>
+```
+
+#### Option B: download CLI binary and add to PATH
+
+- Download the latest Databricks CLI release for Windows from the official Databricks CLI releases page.
+- Add the CLI executable location to your Windows `Path` environment variable.
+- Open a new PowerShell window.
+
+Verify:
+
+```powershell
+databricks --version
+databricks auth profiles
+```
+
+If install commands change over time, use the official Databricks CLI install docs for the latest package name and steps.
+
 ## 0) Create Databricks auth profiles (recommended first step)
 
 Create a default profile:
